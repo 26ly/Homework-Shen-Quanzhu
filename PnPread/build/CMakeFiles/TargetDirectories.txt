@@ -1,0 +1,3 @@
+/home/metal_angel/Desktop/Code/ly/PnPread/build/CMakeFiles/Read.dir
+/home/metal_angel/Desktop/Code/ly/PnPread/build/CMakeFiles/edit_cache.dir
+/home/metal_angel/Desktop/Code/ly/PnPread/build/CMakeFiles/rebuild_cache.dir

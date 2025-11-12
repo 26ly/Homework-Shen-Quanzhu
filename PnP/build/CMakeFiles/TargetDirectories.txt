@@ -1,0 +1,3 @@
+/home/metal_angel/Desktop/Code/ly/PnP/build/CMakeFiles/PnP.dir
+/home/metal_angel/Desktop/Code/ly/PnP/build/CMakeFiles/edit_cache.dir
+/home/metal_angel/Desktop/Code/ly/PnP/build/CMakeFiles/rebuild_cache.dir
