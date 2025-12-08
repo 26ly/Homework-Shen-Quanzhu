@@ -7,13 +7,13 @@
 using namespace std;
 using namespace cv;
 
-Matrix x(4,1); //状态向量 [x,y,vx,vy
-Matrix P(4,4); //协方差矩阵
-Matrix F(4,4); //状态转移矩阵
-Matrix Q(4,4); //过程噪声协方差矩阵
-Matrix H(2,4); //观测矩阵
-Matrix R(2,2); //观测噪声协方差矩阵
-Matrix I(4,4); //单位矩阵
+Matrix x(4,1); // 状态向量 [x,y,vx,vy]
+Matrix P(4,4); // 协方差矩阵
+Matrix F(4,4); // 状态转移矩阵
+Matrix Q(4,4); // 过程噪声协方差矩阵
+Matrix H(2,4); // 观测矩阵
+Matrix R(2,2); // 观测噪声协方差矩阵
+Matrix I(4,4); // 单位矩阵
 
 void initKalmanFilter(double dt,double process_noise,double measurement_noise){
     // 状态转移矩阵 F
@@ -60,13 +60,13 @@ void initKalmanFilter(double dt,double process_noise,double measurement_noise){
     }
 }
 
-//预测步骤
+// 预测步骤
 void predict() {
     x=F.multiply(x);
     P=F.multiply(P).multiply(F.transpose()).add(Q);
 }
 
-//更新步骤
+// 更新步骤
 void update(const Matrix& z) {
     Matrix y=z.subtract(H.multiply(x)); //测量残差
     Matrix S=H.multiply(P).multiply(H.transpose()).add(R); //残差协方差
@@ -131,19 +131,16 @@ double calculateRMSE(const vector<Point2f>& points1,const vector<Point2f>& point
 }
 
 // 可视化轨迹
-void visualize(const vector<Point2f>& true_traj, 
-               const vector<Point2f>& measured_traj, 
-               const vector<Point2f>& filtered_traj,
-               const string& window_name) {
+void visualize(const vector<Point2f>& true_traj,const vector<Point2f>& measured_traj,const vector<Point2f>& filtered_traj,const string& window_name){
     
     // 创建图像
     Mat img(600,600,CV_8UC3,Scalar(255,255,255));
 
     // 坐标变换参数
-    double scale=20; //缩放因子
-    Point2f center(300, 300); //图像中心
+    double scale=20; // 缩放因子
+    Point2f center(300, 300); // 图像中心
     
-    // 绘制真实轨迹 (蓝色)
+    // 绘制真实轨迹(蓝色)
     for (size_t i = 1; i < true_traj.size(); i++) {
         Point2f p1 = true_traj[i-1];
         Point2f p2 = true_traj[i];
@@ -152,14 +149,14 @@ void visualize(const vector<Point2f>& true_traj,
         line(img, pt1, pt2, Scalar(255, 0, 0), 2);
     }
     
-    // 绘制测量点 (绿色)
+    // 绘制测量点(绿色)
     for (size_t i = 0; i < measured_traj.size(); i++) {
         Point2f p = measured_traj[i];
         Point pt(p.x * scale + center.x, -p.y * scale + center.y);
         circle(img, pt, 3, Scalar(0, 255, 0), -1);
     }
     
-    // 绘制滤波轨迹 (红色)
+    // 绘制滤波轨迹(红色)
     for (size_t i = 1; i < filtered_traj.size(); i++) {
         Point2f p1 = filtered_traj[i-1];
         Point2f p2 = filtered_traj[i];
@@ -186,7 +183,7 @@ int main() {
     int num_points=200; // 轨迹点数
     double radius=10.0; // 圆半径
     double period=20.0; // 周期（秒
-    double dt=period/num_points; //时间步长
+    double dt=period/num_points; // 时间步长
     
     vector<Matrix> true_states;
     vector<Matrix> measurements;
