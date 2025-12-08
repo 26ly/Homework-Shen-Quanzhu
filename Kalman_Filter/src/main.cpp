@@ -137,8 +137,8 @@ void visualize(const vector<Point2f>& true_traj,
                const string& window_name) {
     
     // 创建图像
-    Mat img(600, 600, CV_8UC3, Scalar(255, 255, 255));
-    
+    Mat img(600,600,CV_8UC3,Scalar(255,255,255));
+
     // 坐标变换参数
     double scale=20; //缩放因子
     Point2f center(300, 300); //图像中心

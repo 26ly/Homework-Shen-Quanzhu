@@ -1,4 +1,4 @@
-# Install script for directory: /home/metal_angel/Desktop/Code/ly/kalman
+# Install script for directory: /home/metal_angel/Desktop/Code/ly/Kalman_Filter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/metal_angel/Desktop/Code/ly/kalman/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/metal_angel/Desktop/Code/ly/Kalman_Filter/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
