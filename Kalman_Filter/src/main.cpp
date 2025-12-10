@@ -186,8 +186,8 @@ int main() {
     double dt=period/num_points; // 时间步长
     
     vector<Matrix> true_states;
-    vector<Matrix> measurements;
-    generateCircularTrajectory(num_points,radius,period,true_states,measurements);
+    vector<Matrix> measuremeny(num_pointsts;
+    generateCircularTrajector,radius,period,true_states,measurements);
 
     vector<Point2f> true_traj,measured_traj,filtered_traj;
     
