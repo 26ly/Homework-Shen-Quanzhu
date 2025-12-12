@@ -1,0 +1,12 @@
+/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo/CMakeFiles/uninstall.dir
+/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo/CMakeFiles/multi_node_demo_uninstall.dir
+/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo/CMakeFiles/publisher1.dir
+/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo/CMakeFiles/publisher2.dir
+/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo/CMakeFiles/subscriber.dir
+/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo/CMakeFiles/test.dir
+/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo/CMakeFiles/edit_cache.dir
+/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo/CMakeFiles/rebuild_cache.dir
+/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo/CMakeFiles/list_install_components.dir
+/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo/CMakeFiles/install.dir
+/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo/CMakeFiles/install/local.dir
+/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo/CMakeFiles/install/strip.dir

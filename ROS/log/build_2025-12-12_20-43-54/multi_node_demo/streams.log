@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo -- -j16 -l16
+[0.067s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher2.dir/src/publisher2.cpp.o[0m
+[0.067s] [ 50%] Built target subscriber
+[0.067s] [ 83%] Built target publisher1
+[3.505s] [100%] [32m[1mLinking CXX executable publisher2[0m
+[3.645s] [100%] Built target publisher2
+[3.657s] Invoked command in '/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo -- -j16 -l16
+[3.667s] Invoking command in '/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo
+[3.674s] -- Install configuration: ""
+[3.674s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/lib/multi_node_demo/publisher1
+[3.674s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/lib/multi_node_demo/publisher2
+[3.676s] -- Set non-toolchain portion of runtime path of "/home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/lib/multi_node_demo/publisher2" to ""
+[3.676s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/lib/multi_node_demo/subscriber
+[3.676s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/ament_index/resource_index/package_run_dependencies/multi_node_demo
+[3.676s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/ament_index/resource_index/parent_prefix_path/multi_node_demo
+[3.676s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/environment/ament_prefix_path.sh
+[3.677s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/environment/ament_prefix_path.dsv
+[3.677s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/environment/path.sh
+[3.677s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/environment/path.dsv
+[3.677s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/local_setup.bash
+[3.677s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/local_setup.sh
+[3.677s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/local_setup.zsh
+[3.677s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/local_setup.dsv
+[3.677s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/package.dsv
+[3.677s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/ament_index/resource_index/packages/multi_node_demo
+[3.677s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/cmake/multi_node_demoConfig.cmake
+[3.677s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/cmake/multi_node_demoConfig-version.cmake
+[3.677s] -- Up-to-date: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/package.xml
+[3.679s] Invoked command in '/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo

@@ -1,0 +1,64 @@
+[0.008s] Invoking command in '/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/metal_angel/Desktop/Code/ly/ROS/src/multi_node_demo -DCMAKE_INSTALL_PREFIX=/home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo
+[0.031s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.128s] -- Found Python3: /home/metal_angel/miniconda3/bin/python3 (found version "3.12.12") found components: Interpreter 
+[0.241s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.298s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.316s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.454s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.459s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.562s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.582s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.604s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.690s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.709s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.816s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.818s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.818s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/metal_angel/Desktop/Code/ly/ROS/src/multi_node_demo/include>
+[0.818s] -- Configured cppcheck exclude dirs and/or files: 
+[0.819s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.819s] -- Configured cpplint exclude dirs and/or files: 
+[0.820s] -- Added test 'lint_cmake' to check CMake code style
+[0.822s] -- Added test 'uncrustify' to check C / C++ code style
+[0.822s] -- Configured uncrustify additional arguments: 
+[0.823s] -- Added test 'xmllint' to check XML markup files
+[0.825s] -- Configuring done (0.8s)
+[0.839s] -- Generating done (0.0s)
+[0.843s] -- Build files have been written to: /home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo
+[0.851s] Invoked command in '/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/metal_angel/Desktop/Code/ly/ROS/src/multi_node_demo -DCMAKE_INSTALL_PREFIX=/home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo
+[0.852s] Invoking command in '/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo -- -j16 -l16
+[0.901s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher2.dir/src/publisher2.cpp.o[0m
+[0.901s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher1.dir/src/publisher1.cpp.o[0m
+[0.901s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[4.629s] [ 66%] [32m[1mLinking CXX executable publisher1[0m
+[4.637s] [ 83%] [32m[1mLinking CXX executable publisher2[0m
+[4.820s] [ 83%] Built target publisher2
+[4.823s] [ 83%] Built target publisher1
+[7.093s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[7.307s] [100%] Built target subscriber
+[7.320s] Invoked command in '/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo -- -j16 -l16
+[7.329s] Invoking command in '/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo
+[7.337s] -- Install configuration: ""
+[7.337s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/lib/multi_node_demo/publisher1
+[7.338s] -- Set non-toolchain portion of runtime path of "/home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/lib/multi_node_demo/publisher1" to ""
+[7.338s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/lib/multi_node_demo/publisher2
+[7.339s] -- Set non-toolchain portion of runtime path of "/home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/lib/multi_node_demo/publisher2" to ""
+[7.340s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/lib/multi_node_demo/subscriber
+[7.343s] -- Set non-toolchain portion of runtime path of "/home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/lib/multi_node_demo/subscriber" to ""
+[7.344s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/ament_index/resource_index/package_run_dependencies/multi_node_demo
+[7.344s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/ament_index/resource_index/parent_prefix_path/multi_node_demo
+[7.344s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/environment/ament_prefix_path.sh
+[7.344s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/environment/ament_prefix_path.dsv
+[7.344s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/environment/path.sh
+[7.344s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/environment/path.dsv
+[7.345s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/local_setup.bash
+[7.345s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/local_setup.sh
+[7.345s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/local_setup.zsh
+[7.345s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/local_setup.dsv
+[7.345s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/package.dsv
+[7.345s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/ament_index/resource_index/packages/multi_node_demo
+[7.345s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/cmake/multi_node_demoConfig.cmake
+[7.346s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/cmake/multi_node_demoConfig-version.cmake
+[7.346s] -- Installing: /home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo/share/multi_node_demo/package.xml
+[7.347s] Invoked command in '/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo

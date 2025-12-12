@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/metal_angel/Desktop/Code/ly/ROS/src/multi_node_demo -DCMAKE_INSTALL_PREFIX=/home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo
+[0.133s] -- The C compiler identification is GNU 13.3.0
+[0.220s] -- The CXX compiler identification is GNU 13.3.0
+[0.241s] -- Detecting C compiler ABI info
+[0.339s] -- Detecting C compiler ABI info - done
+[0.347s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.348s] -- Detecting C compile features
+[0.348s] -- Detecting C compile features - done
+[0.358s] -- Detecting CXX compiler ABI info
+[0.452s] -- Detecting CXX compiler ABI info - done
+[0.460s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.460s] -- Detecting CXX compile features
+[0.461s] -- Detecting CXX compile features - done
+[0.474s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.474s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.474s]   has asked CMake to find a package configuration file provided by
+[0.475s]   "ament_cmake", but CMake did not find one.
+[0.475s] 
+[0.475s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.475s]   any of the following names:
+[0.475s] 
+[0.475s]     ament_cmakeConfig.cmake
+[0.475s]     ament_cmake-config.cmake
+[0.475s] 
+[0.475s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.475s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.475s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.475s]   has been installed.
+[0.475s] 
+[0.475s] [0m
+[0.475s] -- Configuring incomplete, errors occurred!
+[0.478s] Invoked command in '/home/metal_angel/Desktop/Code/ly/ROS/build/multi_node_demo' returned '1': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/metal_angel/Desktop/Code/ly/ROS/src/multi_node_demo -DCMAKE_INSTALL_PREFIX=/home/metal_angel/Desktop/Code/ly/ROS/install/multi_node_demo
