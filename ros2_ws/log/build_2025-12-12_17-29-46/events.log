@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000332] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000400] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000434] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.012992] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.013982] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub'], 'cwd': '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', '__EGL_VENDOR_LIBRARY_DIRS': '/home/metal_angel/miniconda3/share/glvnd/egl_vendor.d', 'USER': 'metal_angel', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/metal_angel', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '2583', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/metal_angel/miniconda3', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/metal_angel/Desktop/Code/ly/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'metal_angel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'metal_angel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/metal_angel/miniconda3/bin:/home/metal_angel/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Metal-Angel:@/tmp/.ICE-unix/2363,unix/Metal-Angel:/tmp/.ICE-unix/2363', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ceb2a4c2_e0ec_4a74_8143_d5e2dff000e7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CKQ7G3', 'GNOME_TERMINAL_SERVICE': ':1.157', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/metal_angel/miniconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/metal_angel/Desktop/Code/ly/ros2_ws/install/my_package:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/metal_angel/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CONDA_DEFAULT_ENV': 'base', 'LC_MEASUREMENT': 'zh_CN.UTF-8', '_CONDA_EXE': '/home/metal_angel/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/metal_angel/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'CONDA_PREFIX': '/home/metal_angel/miniconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/metal_angel/Desktop/Code/ly/ros2_ws/install/my_package:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.098554] (-) TimerEvent: {}
+[0.129875] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.198692] (-) TimerEvent: {}
+[0.232989] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.266571] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.298868] (-) TimerEvent: {}
+[0.399214] (-) TimerEvent: {}
+[0.439797] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.454796] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.455255] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.455848] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.485176] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499372] (-) TimerEvent: {}
+[0.599786] (-) TimerEvent: {}
+[0.681020] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.697453] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.697949] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.698865] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.699878] (-) TimerEvent: {}
+[0.724515] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.800025] (-) TimerEvent: {}
+[0.900425] (-) TimerEvent: {}
+[0.924375] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /home/metal_angel/miniconda3/bin/python3 (found version "3.12.12") found components: Interpreter \n'}
+[1.000561] (-) TimerEvent: {}
+[1.100932] (-) TimerEvent: {}
+[1.161108] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.201071] (-) TimerEvent: {}
+[1.278445] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.301191] (-) TimerEvent: {}
+[1.314813] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.359397] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.401307] (-) TimerEvent: {}
+[1.404217] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.501449] (-) TimerEvent: {}
+[1.595789] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.601545] (-) TimerEvent: {}
+[1.605469] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.701685] (-) TimerEvent: {}
+[1.802050] (-) TimerEvent: {}
+[1.834085] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.874677] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.902191] (-) TimerEvent: {}
+[1.919316] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.002335] (-) TimerEvent: {}
+[2.097953] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.102453] (-) TimerEvent: {}
+[2.202786] (-) TimerEvent: {}
+[2.232593] (cpp_pubsub) StderrLine: {'line': b"Error parsing '/home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub/package.xml':\n"}
+[2.233106] (cpp_pubsub) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.233337] (cpp_pubsub) StderrLine: {'line': b'  File "/home/metal_angel/miniconda3/lib/python3.12/site-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[2.233633] (cpp_pubsub) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[2.233882] (cpp_pubsub) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.234075] (cpp_pubsub) StderrLine: {'line': b'  File "/home/metal_angel/miniconda3/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString\n'}
+[2.234200] (cpp_pubsub) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[2.234310] (cpp_pubsub) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.234434] (cpp_pubsub) StderrLine: {'line': b'  File "/home/metal_angel/miniconda3/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString\n'}
+[2.234537] (cpp_pubsub) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[2.234669] (cpp_pubsub) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.234782] (cpp_pubsub) StderrLine: {'line': b'  File "/home/metal_angel/miniconda3/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString\n'}
+[2.234901] (cpp_pubsub) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[2.235108] (cpp_pubsub) StderrLine: {'line': b'xml.parsers.expat.ExpatError: junk after document element: line 19, column 0\n'}
+[2.235244] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[2.235347] (cpp_pubsub) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[2.235453] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[2.235555] (cpp_pubsub) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.235656] (cpp_pubsub) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[2.235767] (cpp_pubsub) StderrLine: {'line': b'    main()\n'}
+[2.235902] (cpp_pubsub) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[2.236011] (cpp_pubsub) StderrLine: {'line': b'    raise e\n'}
+[2.236111] (cpp_pubsub) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[2.236210] (cpp_pubsub) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[2.236307] (cpp_pubsub) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.236407] (cpp_pubsub) StderrLine: {'line': b'  File "/home/metal_angel/miniconda3/lib/python3.12/site-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[2.236527] (cpp_pubsub) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[2.236625] (cpp_pubsub) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub/package.xml':\n"}
+[2.236740] (cpp_pubsub) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[2.236883] (cpp_pubsub) StderrLine: {'line': b'junk after document element: line 19, column 0\n'}
+[2.252124] (cpp_pubsub) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[2.252424] (cpp_pubsub) StderrLine: {'line': b'  execute_process(/home/metal_angel/miniconda3/bin/python3\n'}
+[2.252602] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[2.252748] (cpp_pubsub) StderrLine: {'line': b'  /home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub/package.xml\n'}
+[2.252945] (cpp_pubsub) StderrLine: {'line': b'  /home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub/ament_cmake_core/package.cmake)\n'}
+[2.253060] (cpp_pubsub) StderrLine: {'line': b'  returned error code 1\n'}
+[2.253166] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.253269] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.253369] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[2.253469] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:26 (ament_package)\n'}
+[2.253570] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[2.253705] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[2.253851] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.267660] (cpp_pubsub) CommandEnded: {'returncode': 1}
+[2.269061] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 1}
+[2.280126] (-) EventReactorShutdown: {}

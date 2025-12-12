@@ -1,0 +1,42 @@
+[0.019s] Invoking command in '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub
+[0.045s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.356s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.410s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.469s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.576s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.578s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.692s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.805s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.981s] -- Configuring done (0.9s)
+[0.986s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[0.986s]   Cannot find source file:
+[0.986s] 
+[0.987s]     src/publisher_lambda_function.cpp
+[0.987s] 
+[0.987s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.987s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.987s]   .f95 .f03 .hip .ispc
+[0.987s] 
+[0.987s] [0m
+[0.988s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[0.988s]   Cannot find source file:
+[0.988s] 
+[0.989s]     src/subscriber_lambda_function.cpp
+[0.989s] 
+[0.989s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.989s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.989s]   .f95 .f03 .hip .ispc
+[0.989s] 
+[0.989s] [0m
+[0.990s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[0.990s]   No SOURCES given to target: talker
+[0.990s] 
+[0.990s] [0m
+[0.990s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[0.991s]   No SOURCES given to target: listener
+[0.991s] 
+[0.991s] [0m
+[0.991s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.004s] Invoked command in '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub

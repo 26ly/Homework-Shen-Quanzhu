@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.001122] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001340] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001425] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.016605] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.017916] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub'], 'cwd': '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', '__EGL_VENDOR_LIBRARY_DIRS': '/home/metal_angel/miniconda3/share/glvnd/egl_vendor.d', 'USER': 'metal_angel', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/metal_angel', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '2583', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/metal_angel/miniconda3', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/metal_angel/Desktop/Code/ly/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'metal_angel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'metal_angel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/metal_angel/miniconda3/bin:/home/metal_angel/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Metal-Angel:@/tmp/.ICE-unix/2363,unix/Metal-Angel:/tmp/.ICE-unix/2363', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ceb2a4c2_e0ec_4a74_8143_d5e2dff000e7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CKQ7G3', 'GNOME_TERMINAL_SERVICE': ':1.157', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/metal_angel/miniconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/metal_angel/Desktop/Code/ly/ros2_ws/install/my_package:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/metal_angel/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CONDA_DEFAULT_ENV': 'base', 'LC_MEASUREMENT': 'zh_CN.UTF-8', '_CONDA_EXE': '/home/metal_angel/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/metal_angel/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'CONDA_PREFIX': '/home/metal_angel/miniconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/metal_angel/Desktop/Code/ly/ros2_ws/install/my_package:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.046662] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099574] (-) TimerEvent: {}
+[0.200045] (-) TimerEvent: {}
+[0.300483] (-) TimerEvent: {}
+[0.359028] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.400667] (-) TimerEvent: {}
+[0.414058] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.429510] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.449432] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.472327] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500809] (-) TimerEvent: {}
+[0.579515] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.581667] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600921] (-) TimerEvent: {}
+[0.694922] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.701041] (-) TimerEvent: {}
+[0.801418] (-) TimerEvent: {}
+[0.806831] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.901564] (-) TimerEvent: {}
+[0.976544] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[0.999117] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.001684] (-) TimerEvent: {}
+[1.006946] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub\n'}
+[1.023114] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.024292] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[1.025702] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub', '--', '-j16', '-l16'], 'cwd': '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', '__EGL_VENDOR_LIBRARY_DIRS': '/home/metal_angel/miniconda3/share/glvnd/egl_vendor.d', 'USER': 'metal_angel', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/metal_angel', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '2583', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/metal_angel/miniconda3', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/metal_angel/Desktop/Code/ly/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'metal_angel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'metal_angel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/metal_angel/miniconda3/bin:/home/metal_angel/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Metal-Angel:@/tmp/.ICE-unix/2363,unix/Metal-Angel:/tmp/.ICE-unix/2363', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ceb2a4c2_e0ec_4a74_8143_d5e2dff000e7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CKQ7G3', 'GNOME_TERMINAL_SERVICE': ':1.157', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/metal_angel/miniconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/metal_angel/Desktop/Code/ly/ros2_ws/install/my_package:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/metal_angel/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CONDA_DEFAULT_ENV': 'base', 'LC_MEASUREMENT': 'zh_CN.UTF-8', '_CONDA_EXE': '/home/metal_angel/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/metal_angel/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'CONDA_PREFIX': '/home/metal_angel/miniconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/metal_angel/Desktop/Code/ly/ros2_ws/install/my_package:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.101866] (-) TimerEvent: {}
+[1.131330] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda.cpp.o\x1b[0m\n'}
+[1.131692] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda.cpp.o\x1b[0m\n'}
+[1.201994] (-) TimerEvent: {}
+[1.302350] (-) TimerEvent: {}
+[1.402714] (-) TimerEvent: {}
+[1.503083] (-) TimerEvent: {}
+[1.603444] (-) TimerEvent: {}
+[1.704042] (-) TimerEvent: {}
+[1.804824] (-) TimerEvent: {}
+[1.905522] (-) TimerEvent: {}
+[2.006212] (-) TimerEvent: {}
+[2.106630] (-) TimerEvent: {}
+[2.206994] (-) TimerEvent: {}
+[2.307367] (-) TimerEvent: {}
+[2.407825] (-) TimerEvent: {}
+[2.508185] (-) TimerEvent: {}
+[2.608583] (-) TimerEvent: {}
+[2.709174] (-) TimerEvent: {}
+[2.809572] (-) TimerEvent: {}
+[2.909924] (-) TimerEvent: {}
+[3.010277] (-) TimerEvent: {}
+[3.110660] (-) TimerEvent: {}
+[3.211010] (-) TimerEvent: {}
+[3.311366] (-) TimerEvent: {}
+[3.411696] (-) TimerEvent: {}
+[3.512057] (-) TimerEvent: {}
+[3.612429] (-) TimerEvent: {}
+[3.712764] (-) TimerEvent: {}
+[3.813133] (-) TimerEvent: {}
+[3.913490] (-) TimerEvent: {}
+[4.013841] (-) TimerEvent: {}
+[4.114195] (-) TimerEvent: {}
+[4.214566] (-) TimerEvent: {}
+[4.314920] (-) TimerEvent: {}
+[4.415274] (-) TimerEvent: {}
+[4.515648] (-) TimerEvent: {}
+[4.615992] (-) TimerEvent: {}
+[4.716326] (-) TimerEvent: {}
+[4.816708] (-) TimerEvent: {}
+[4.917068] (-) TimerEvent: {}
+[5.017438] (-) TimerEvent: {}
+[5.117795] (-) TimerEvent: {}
+[5.218153] (-) TimerEvent: {}
+[5.318509] (-) TimerEvent: {}
+[5.418863] (-) TimerEvent: {}
+[5.519240] (-) TimerEvent: {}
+[5.619658] (-) TimerEvent: {}
+[5.720014] (-) TimerEvent: {}
+[5.820366] (-) TimerEvent: {}
+[5.920737] (-) TimerEvent: {}
+[6.021096] (-) TimerEvent: {}
+[6.121481] (-) TimerEvent: {}
+[6.221829] (-) TimerEvent: {}
+[6.322174] (-) TimerEvent: {}
+[6.422527] (-) TimerEvent: {}
+[6.522869] (-) TimerEvent: {}
+[6.623214] (-) TimerEvent: {}
+[6.723573] (-) TimerEvent: {}
+[6.823903] (-) TimerEvent: {}
+[6.924236] (-) TimerEvent: {}
+[7.024606] (-) TimerEvent: {}
+[7.124948] (-) TimerEvent: {}
+[7.225282] (-) TimerEvent: {}
+[7.325667] (-) TimerEvent: {}
+[7.426010] (-) TimerEvent: {}
+[7.508678] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[7.526163] (-) TimerEvent: {}
+[7.626487] (-) TimerEvent: {}
+[7.726863] (-) TimerEvent: {}
+[7.807337] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[7.826979] (-) TimerEvent: {}
+[7.927320] (-) TimerEvent: {}
+[8.027724] (-) TimerEvent: {}
+[8.128074] (-) TimerEvent: {}
+[8.228435] (-) TimerEvent: {}
+[8.328807] (-) TimerEvent: {}
+[8.429229] (-) TimerEvent: {}
+[8.529704] (-) TimerEvent: {}
+[8.630040] (-) TimerEvent: {}
+[8.730365] (-) TimerEvent: {}
+[8.830714] (-) TimerEvent: {}
+[8.931002] (-) TimerEvent: {}
+[9.031279] (-) TimerEvent: {}
+[9.131563] (-) TimerEvent: {}
+[9.231825] (-) TimerEvent: {}
+[9.332087] (-) TimerEvent: {}
+[9.432342] (-) TimerEvent: {}
+[9.532603] (-) TimerEvent: {}
+[9.632848] (-) TimerEvent: {}
+[9.733090] (-) TimerEvent: {}
+[9.833335] (-) TimerEvent: {}
+[9.933591] (-) TimerEvent: {}
+[10.033835] (-) TimerEvent: {}
+[10.134082] (-) TimerEvent: {}
+[10.234360] (-) TimerEvent: {}
+[10.334687] (-) TimerEvent: {}
+[10.367056] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[10.434804] (-) TimerEvent: {}
+[10.535084] (-) TimerEvent: {}
+[10.573331] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[10.585134] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[10.585755] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[10.595521] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', '__EGL_VENDOR_LIBRARY_DIRS': '/home/metal_angel/miniconda3/share/glvnd/egl_vendor.d', 'USER': 'metal_angel', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/metal_angel', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '2583', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/metal_angel/miniconda3', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/metal_angel/Desktop/Code/ly/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'metal_angel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'metal_angel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/metal_angel/miniconda3/bin:/home/metal_angel/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Metal-Angel:@/tmp/.ICE-unix/2363,unix/Metal-Angel:/tmp/.ICE-unix/2363', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ceb2a4c2_e0ec_4a74_8143_d5e2dff000e7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CKQ7G3', 'GNOME_TERMINAL_SERVICE': ':1.157', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/metal_angel/miniconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/metal_angel/Desktop/Code/ly/ros2_ws/install/my_package:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/metal_angel/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CONDA_DEFAULT_ENV': 'base', 'LC_MEASUREMENT': 'zh_CN.UTF-8', '_CONDA_EXE': '/home/metal_angel/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/metal_angel/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'CONDA_PREFIX': '/home/metal_angel/miniconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/metal_angel/Desktop/Code/ly/ros2_ws/install/my_package:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.603397] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.603790] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[10.608221] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[10.608376] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[10.609640] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[10.609793] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[10.610014] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[10.610206] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[10.610347] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[10.610474] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[10.610618] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[10.610786] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[10.610917] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[10.611061] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[10.611201] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[10.611341] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[10.611550] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[10.611733] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[10.611893] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[10.612004] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[10.613829] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[10.626338] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[10.626989] (-) EventReactorShutdown: {}

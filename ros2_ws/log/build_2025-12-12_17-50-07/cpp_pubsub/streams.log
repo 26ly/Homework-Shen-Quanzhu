@@ -1,0 +1,45 @@
+[0.019s] Invoking command in '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub
+[0.046s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.358s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.413s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.428s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.448s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.578s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.580s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.694s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.806s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.975s] -- Configuring done (0.9s)
+[0.998s] -- Generating done (0.0s)
+[1.006s] -- Build files have been written to: /home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub
+[1.023s] Invoked command in '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub
+[1.025s] Invoking command in '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[1.130s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda.cpp.o[0m
+[1.130s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda.cpp.o[0m
+[7.508s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[7.806s] [ 75%] Built target talker
+[10.366s] [100%] [32m[1mLinking CXX executable listener[0m
+[10.572s] [100%] Built target listener
+[10.584s] Invoked command in '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[10.594s] Invoking command in '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub
+[10.602s] -- Install configuration: ""
+[10.602s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[10.607s] -- Set non-toolchain portion of runtime path of "/home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[10.607s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[10.608s] -- Set non-toolchain portion of runtime path of "/home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[10.608s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[10.609s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[10.609s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[10.609s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[10.609s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[10.609s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[10.609s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[10.610s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[10.610s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[10.610s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[10.610s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[10.610s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[10.610s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[10.611s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[10.611s] -- Installing: /home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[10.613s] Invoked command in '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub

@@ -1,0 +1,55 @@
+[0.021s] Invoking command in '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub
+[0.048s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.399s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.457s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.474s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.496s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.636s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.639s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.764s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.878s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.019s] Error parsing '/home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub/package.xml':
+[1.019s] Traceback (most recent call last):
+[1.019s]   File "/home/metal_angel/miniconda3/lib/python3.12/site-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.019s]     root = dom.parseString(data)
+[1.020s]            ^^^^^^^^^^^^^^^^^^^^^
+[1.020s]   File "/home/metal_angel/miniconda3/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString
+[1.020s]     return expatbuilder.parseString(string)
+[1.020s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.020s]   File "/home/metal_angel/miniconda3/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[1.020s]     return builder.parseString(string)
+[1.021s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.021s]   File "/home/metal_angel/miniconda3/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[1.021s]     parser.Parse(string, True)
+[1.021s] xml.parsers.expat.ExpatError: junk after document element: line 19, column 0
+[1.021s] 
+[1.021s] During handling of the above exception, another exception occurred:
+[1.021s] 
+[1.021s] Traceback (most recent call last):
+[1.022s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.022s]     main()
+[1.022s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.022s]     raise e
+[1.022s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.022s]     package = parse_package_string(
+[1.022s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.022s]   File "/home/metal_angel/miniconda3/lib/python3.12/site-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.023s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.023s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub/package.xml':
+[1.023s] The manifest contains invalid XML:
+[1.023s] junk after document element: line 19, column 0
+[1.041s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.041s]   execute_process(/home/metal_angel/miniconda3/bin/python3
+[1.041s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.041s]   /home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub/package.xml
+[1.041s]   /home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub/ament_cmake_core/package.cmake)
+[1.041s]   returned error code 1
+[1.041s] Call Stack (most recent call first):
+[1.041s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.042s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[1.042s]   CMakeLists.txt:26 (ament_package)
+[1.042s] 
+[1.042s] [0m
+[1.042s] -- Configuring incomplete, errors occurred!
+[1.054s] Invoked command in '/home/metal_angel/Desktop/Code/ly/ros2_ws/build/cpp_pubsub' returned '1': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/metal_angel/Desktop/Code/ly/ros2_ws/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/metal_angel/Desktop/Code/ly/ros2_ws/install/cpp_pubsub
