@@ -1,0 +1,19 @@
+--2025-12-22 17:20:30--  https://drive.google.com/uc?id=0B3gersZ2cHIxRm5PMWRoTkdHdHc
+正在解析主机 drive.google.com (drive.google.com)... 142.250.198.206
+正在连接 drive.google.com (drive.google.com)|142.250.198.206|:443... 失败：连接超时。
+重试中。
+
+--2025-12-22 17:22:44--  (尝试次数： 2)  https://drive.google.com/uc?id=0B3gersZ2cHIxRm5PMWRoTkdHdHc
+正在连接 drive.google.com (drive.google.com)|142.250.198.206|:443... 失败：连接超时。
+重试中。
+
+--2025-12-22 17:25:00--  (尝试次数： 3)  https://drive.google.com/uc?id=0B3gersZ2cHIxRm5PMWRoTkdHdHc
+正在连接 drive.google.com (drive.google.com)|142.250.198.206|:443... 失败：连接超时。
+重试中。
+
+--2025-12-22 17:27:17--  (尝试次数： 4)  https://drive.google.com/uc?id=0B3gersZ2cHIxRm5PMWRoTkdHdHc
+正在连接 drive.google.com (drive.google.com)|142.250.198.206|:443... 失败：连接超时。
+重试中。
+
+--2025-12-22 17:29:37--  (尝试次数： 5)  https://drive.google.com/uc?id=0B3gersZ2cHIxRm5PMWRoTkdHdHc
+正在连接 drive.google.com (drive.google.com)|142.250.198.206|:443... 失败：网络不可达。
